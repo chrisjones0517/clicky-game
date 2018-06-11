@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "image": "./assets/images/batman.png",
+        "name": "batman",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "image": "./assets/images/chicken.jpg",
+        "name": "chicken",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "image": "./assets/images/disney.jpg",
+        "name": "disney",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "image": "./assets/images/duck.png",
+        "name": "duck",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "image": "./assets/images/egghead.jpg",
+        "name": "egghead",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "image": "./assets/images/he-man.png",
+        "name": "he-man",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "image": "./assets/images/mickey.png",
+        "name": "mickey mouse",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "image": "./assets/images/minnie.jpg",
+        "name": "minnie mouse",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "image": "./assets/images/papaSmurf.jpg",
+        "name": "papa smurf",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "image": "./assets/images/penguin.jpg",
+        "name": "penguin",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "image": "./assets/images/pinocchio.jpg",
+        "name": "pinocchio",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "image": "./assets/images/some-gal.jpg",
+        "name": "some female cartoon",
+        "clicked": false
+    },
+    {
+        "id": 13,
+        "image": "./assets/images/popeye.jpg",
+        "name": "popeye",
+        "clicked": false
+    },
+    {
+        "id": 14,
+        "image": "./assets/images/scooby.jpg",
+        "name": "scooby",
+        "clicked": false
+    },
+    {
+        "id": 15,
+        "image": "./assets/images/tweety.jpg",
+        "name": "tweety",
+        "clicked": false
+    },
+    {
+        "id": 16,
+        "image": "./assets/images/stewie.jpg",
+        "name": "stewie",
+        "clicked": false
+    }
+]
