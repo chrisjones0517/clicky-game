@@ -7,10 +7,15 @@
     "react-dom": "^16.4.0",
     "react-scripts": "1.1.4"
   },
+  "homepage": "https://chrisjones0517.github.io/clicky-game/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
   }
 }
