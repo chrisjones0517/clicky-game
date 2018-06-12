@@ -1,7 +1,14 @@
 .header {
+    position: fixed;
     background-color: rgb(141, 88, 141);
     height: 6rem;
     color: #fff;
+}
+
+.colDiv {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
 }
 
 h2 {
@@ -15,4 +22,29 @@ h2 {
 
 #logo-title:hover {
     color: #ff0000;
+}
+
+@media only screen and (max-width: 1116px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .colDiv {
+        display: block;
+        width: 100%;
+    }
+    .header {
+        height: 11rem;
+    }
+    h2 {
+        line-height: 3rem;
+    }
+}
+
+@media only screen and (max-width: 268px) {
+    h2 {
+        font-size: 1rem;
+    }
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './Header/Header';
+import Footer from './Footer/Footer';
 import Cartoons from './cartoons.json';
 
 const cartoons = shuffle(Cartoons);
@@ -142,9 +143,11 @@ class App extends Component {
         return (
             <div className="container-fluid">
                 <Header score={this.state.score} style={myStyle} message={this.state.message} topScore={this.state.topScore} newGame={this.newGame} />
+                <div className="spacer"></div>
                 <div className="jumbotron jumbotron-fluid text-center">
                     <h1 className={winStyle}>{this.state.banner}</h1>
-                    <h4>Click on an image to earn points, but don't click on any image more than once!</h4>
+                    <h4 className="m-5 info">Click on an image to earn points, but don't click on any image more than once! You can start a new game by clicking the 'Clicky Game' title in the header.</h4>
+
                 </div>
                 <main className={wrong}>
                     <div className="row">
@@ -154,6 +157,7 @@ class App extends Component {
                         <div className="col-sm-3">{images4}</div>
                     </div>
                 </main>
+                <Footer />
             </div>
         );
     }

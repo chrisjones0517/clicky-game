@@ -7,6 +7,10 @@
     background-image: url('./images/memphis-colorful.png');
 }
 
+.spacer {
+    height: 6rem;
+}
+
 .click-item {
     margin: 20px auto;
     border: 5px solid #f1f1f1;
@@ -59,6 +63,12 @@
         box-shadow: 0 0 0 rgba(0,0,0,.16), 0 0 0 rgba(0,0,0,.23);
         transition: width 0s, box-shadow 0s;
         border: 2px solid #ff0000;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .spacer {
+        height: 11rem;
     }
 }
 
@@ -119,6 +129,9 @@
         box-shadow: 0 0 0 rgba(0,0,0,.16), 0 0 0 rgba(0,0,0,.23);
         transition: width 0s, box-shadow 0s;
         border: 2px solid #ff0000;
+    }
+    .info {
+        font-size: 1rem;
     }
 }
 
