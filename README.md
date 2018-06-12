@@ -15,3 +15,6 @@ To begin, simply click an image, which will trigger a new random arrangement of 
 * JSX/HTML
 
 [Link to live deployment](https://chrisjones0517.github.io/clicky-game/)
+
+#### Screenshot:
+![screenshot](https://github.com/chrisjones0517/clicky-game/blob/master/public/assets/images/game-shot.png)
