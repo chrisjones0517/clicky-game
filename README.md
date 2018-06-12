@@ -17,3 +17,4 @@ To begin, simply click an image, which will trigger a new random arrangement of 
 [Link to live deployment](https://chrisjones0517.github.io/clicky-game/)
 
 #### Screenshot:
+(https://github.com/chrisjones0517/clicky-game/public/assets/images/game-shot.png)
