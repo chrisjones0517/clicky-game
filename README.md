@@ -8,3 +8,10 @@ To begin, simply click an image, which will trigger a new random arrangement of 
 
 ## Incorporated Technologies
 * React
+* Bootstrap
+* JavaScript
+* Node.js
+* CSS
+* JSX/HTML
+
+[Link to live deployment](https://chrisjones0517.github.io/clicky-game/)
