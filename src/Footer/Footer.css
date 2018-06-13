@@ -1,8 +1,9 @@
 footer {
+    position: absolute;
     background-color: rgb(141, 88, 141);
     height: 4rem;
-    margin-top: 2rem;
-    margin-bottom: 0;
+    width: 100vw;
+    bottom: 0;
     padding-bottom: 0;
 }
 
@@ -11,22 +12,3 @@ footer {
     bottom: -1rem;
 }
 
-@media only screen and (max-width: 1000px) {
-    footer {
-        position: relative;
-        bottom: -1.6rem;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    footer {
-        position: relative;
-        bottom: -2.6rem;
-    }
-}
-
-@media only screen and (max-width: 581px) {
-    footer {
-        position: relative;
-    }
-}

@@ -141,7 +141,7 @@ class App extends Component {
         }
 
         return (
-            <div className="container-fluid">
+            <div className="container-fluid inner-div">
                 <Header score={this.state.score} style={myStyle} message={this.state.message} topScore={this.state.topScore} newGame={this.newGame} />
                 <div className="spacer"></div>
                 <div className="jumbotron jumbotron-fluid text-center">
