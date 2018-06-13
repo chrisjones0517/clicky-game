@@ -94,5 +94,29 @@
         "image": "./assets/images/stewie.jpg",
         "name": "stewie",
         "clicked": false
+    },
+    {
+        "id": 17,
+        "image": "./assets/images/some-guy.jpg",
+        "name": "some guy cartoon",
+        "clicked": false
+    },
+    {
+        "id": 18,
+        "image": "./assets/images/garfield.jpg",
+        "name": "garfield",
+        "clicked": false
+    },
+    {
+        "id": 19,
+        "image": "./assets/images/ninja.png",
+        "name": "ninja",
+        "clicked": false
+    },
+    {
+        "id": 20,
+        "image": "./assets/images/sponge.png",
+        "name": "sponge bob",
+        "clicked": false
     }
 ]
